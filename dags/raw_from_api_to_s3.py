@@ -29,8 +29,8 @@ args = {
     "owner": OWNER,
     "start_date": pendulum.datetime(2026, 9, 1, tz="Europe/Moscow"),
     "catchup": True,
-    "retries": 3,
-    "retry_delay": pendulum.duration(hours=1),
+    "retries": 1,
+    "retry_delay": pendulum.duration(minutes=5),
 }
 
 
